@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "./static/css/main.3b3b9974.css",
+    "main.js": "./static/js/main.adb733c2.js",
+    "static/js/787.53bb4679.chunk.js": "./static/js/787.53bb4679.chunk.js",
+    "static/media/caution.png": "./static/media/caution.a9fcf7665952ac5db252.png",
+    "static/media/Mulish-Bold.ttf": "./static/media/Mulish-Bold.84c15758a512288dca5b.ttf",
+    "static/media/Mulish.ttf": "./static/media/Mulish.4f754a16985bfa495977.ttf",
+    "static/media/bouser.png": "./static/media/bouser.73a0bc1f1a3d04cb02ec.png",
+    "static/media/bidvbg.png": "./static/media/bidvbg.909837eec8bcf49affb0.png",
+    "static/media/vcb.webp": "./static/media/vcb.1c2c54d61dc5bcfcf755.webp",
+    "static/media/default.png": "./static/media/default.a6143582309785dca610.png",
+    "static/media/bidv.png": "./static/media/bidv.b0d38c57e6dc853379bc.png",
+    "static/media/bidvlogo.svg": "./static/media/bidvlogo.23618e03fddd892adcec1dc7eb171171.svg",
+    "index.html": "./index.html",
+    "main.3b3b9974.css.map": "./static/css/main.3b3b9974.css.map",
+    "main.adb733c2.js.map": "./static/js/main.adb733c2.js.map",
+    "787.53bb4679.chunk.js.map": "./static/js/787.53bb4679.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b3b9974.css",
+    "static/js/main.adb733c2.js"
+  ]
+}

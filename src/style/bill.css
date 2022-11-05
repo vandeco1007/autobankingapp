@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url('../asset/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
+html {
+    font-family:'Montserrat';
+    font-size: 16px;
+}
+
+.td-right{
+    text-align: right;
+}
+
+.bill-wrapper {
+    background-image: url('../asset/media/images/vietinbilling/background.png');
+    background-size: 400%;
+    background-position-x: center;
+    width: 500px;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    opacity: 0;
+    position: fixed;
+}
+
+.bill-container {
+    align-items: center;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('../asset/media/images/vietinbilling/bg.png');
+    width: 450px;
+    height: 705px;
+    padding: 0 18px;
+    overflow: hidden;
+}
+
+/* Head bill */
+.head-bill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+
+
+.bg-vietin img {
+    width: 500px;
+}
+
+.vt-logo {
+    display: flex;
+    align-items: center;
+}
+
+.vt-logo img {
+    width: 170px;
+}
+
+.time-code {
+    font-weight: normal;
+    font-size: 0.95em;
+    color: #8c919e;
+    font-weight: 500;
+}
+
+.time {
+    display: flex;
+    justify-content: right
+}
+
+/* Status */
+.status-content {
+    background-color: #EAFDE7;
+    color: #4db843;
+    font-weight: 700;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    font-size: 1.05em;
+    border-radius: 8px;
+}
+
+/* Information */
+.information {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 55px;
+}
+
+.info {
+    height: 64px;
+    line-height: 22px;
+}
+
+.info div{
+    width: 50%;
+}
+
+.left-info {
+    color: #778183;
+    font-size: 1.05em;
+    font-weight: 300;
+    display: inline-block;
+    text-align: left;
+}
+
+.right-info {
+    float: right;
+    justify-content: right;
+    color: #092D4D;
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.right-info div{
+    width: 100%;
+}
+
+.above-content {
+    justify-content: right;
+    display: flex;
+}
+
+.a-line {
+    height: 38px;
+}
+
+.fee {
+    color: #045A8B;
+    font-weight: 700;
+}
+
+.account {
+    font-weight: 700;
+}
+
+/* Banner Vietinbank */
+.banner {
+    padding-top: 28px;
+}
+
+.banner img {
+    width: 414px;
+        border-radius: 10px;
+}
+
+.cancelPrnt{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: -3%;
+    top: -2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(245, 245, 245, 0.589);
+    cursor: pointer;
+}
+
+.billPrinter{
+    color: transparent;
+    width: 20px;
+    height: 20px;
+    border: 0px solid transparent;
+    background: url('../asset/media/images/icons/print.png');
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+#download-button{
+    width: 30px;
+    height: 30px;
+    background: url('../asset/media/images/icons/download.png');
+    background-size: 100% 100%;
+    position: absolute;
+    left: 30px;
+    border: 0px solid transparent;
+    cursor: pointer;
+}
