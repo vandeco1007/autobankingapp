@@ -26,7 +26,7 @@ const Transitions = ()=>{
                     <p>&nbsp;Tổng đơn</p>
                   </div>
                   <div className='num-statistics'>
-                    <h1 id='tongdon'>68</h1>
+                    <h1 id='tongdon'>0</h1>
                     <p>&nbsp;đơn</p>
                   </div>                  
                 </div>
@@ -36,7 +36,7 @@ const Transitions = ()=>{
                     <p>&nbsp;Tổng xuất</p>
                   </div>
                   <div className='num-statistics'>
-                    <h1 id='tongxuat'>32</h1>
+                    <h1 id='tongxuat'>0</h1>
                     <p>&nbsp;đơn</p>
                   </div>                  
                 </div>

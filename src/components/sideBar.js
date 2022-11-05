@@ -33,7 +33,7 @@ const Sidebar = ()=>{
               <h2>Xin chào {user}</h2>
               <div className='bankAccount-content'>
                 <h3 className='loginContent'>{device}</h3>
-                <h2 className='loginContent'>Vietcombank</h2>
+                <h2 className='loginContent'>BIDV</h2>
                 <h3 className='loginContent'>{bank}</h3>
                 <h3 className='loginContent'>19552365800125</h3>
                 <h3 className='loginContent'>882563</h3>
@@ -47,7 +47,7 @@ const Sidebar = ()=>{
 
         <div className='bank'>
           <div className='bank-hover'>
-            <div className='vcbwhite'></div>
+            <div className='bidvwhite'></div>
           </div>
           <div className='appendContent'>
             <a href='/' target="_blank">
@@ -56,7 +56,27 @@ const Sidebar = ()=>{
               </div>
               Chuyển khoản
             </a>
+            <a href='/billing' target="_blank">
+              <div className='icon-append-container'>
+                <img src={iconthongke}></img>
+              </div>
+              Thống kê
+            </a>
+          </div>
+        </div>
+
+        <div className='bank'>
+          <div className='bank-hover'>
+            <a className='vcbwhite'></a>
+          </div>
+          <div className='appendContent'>
             <a href='/' target="_blank">
+              <div className='icon-append-container'>
+                <img src={iconchuyenkhoan}></img>
+              </div>
+              Chuyển khoản
+            </a>
+            <a href='/billing' target="_blank">
               <div className='icon-append-container'>
                 <img src={iconthongke}></img>
               </div>
@@ -69,25 +89,6 @@ const Sidebar = ()=>{
         <div className='bank'>
           <div className='bank-hover'>
             <div className='vietinwhite'></div>
-          </div>
-          <div className='appendContent'>
-            <a href='/' target="_blank">
-              <div className='icon-append-container'>
-                <img src={iconchuyenkhoan}></img>
-              </div>
-              Chuyển khoản
-            </a>
-            <a href='/' target="_blank">
-              <div className='icon-append-container'>
-                <img src={iconthongke}></img>
-              </div>
-              Thống kê
-            </a>
-          </div>
-        </div>
-        <div className='bank'>
-          <div className='bank-hover'>
-            <div className='bidvwhite'></div>
           </div>
           <div className='appendContent'>
             <a href='/' target="_blank">
