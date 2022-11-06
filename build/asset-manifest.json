@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.4ed68431.css",
-    "main.js": "./static/js/main.295f6a2f.js",
+    "main.js": "./static/js/main.1de9b1d4.js",
     "static/js/787.53bb4679.chunk.js": "./static/js/787.53bb4679.chunk.js",
     "static/media/background.png": "./static/media/background.30c53699d2c4e69c0577.png",
     "static/media/Montserrat-Bold.ttf": "./static/media/Montserrat-Bold.0915f0a8c3367a6d05ec.ttf",
@@ -30,11 +30,11 @@
     "static/media/iconchuyenkhoan.svg": "./static/media/iconchuyenkhoan.9149f4fff4b22e2ceb007dba498eb605.svg",
     "static/media/icontongdon.svg": "./static/media/icontongdon.6dcf57f359e1240d611110b25a7dc558.svg",
     "main.4ed68431.css.map": "./static/css/main.4ed68431.css.map",
-    "main.295f6a2f.js.map": "./static/js/main.295f6a2f.js.map",
+    "main.1de9b1d4.js.map": "./static/js/main.1de9b1d4.js.map",
     "787.53bb4679.chunk.js.map": "./static/js/787.53bb4679.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4ed68431.css",
-    "static/js/main.295f6a2f.js"
+    "static/js/main.1de9b1d4.js"
   ]
 }
